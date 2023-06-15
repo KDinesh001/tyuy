@@ -1,0 +1,165 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+
+
+
+button{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.ss{
+    margin-left: 450px;
+}
+img{
+    margin-left: 100px;
+}
+
+.bor{
+    height: 800px;
+    width:400px;
+    background-color:wheat;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 13%;
+    margin-left: 37%;
+}
+
+.bac{
+    width:100%;
+    height:100vh;
+  
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(df.jpg) ;
+    background-position: center;
+    background-size: cover;
+  }  
+
+  .tc-box{
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }  
+
+.tc-box h1{
+    
+    font-size: 55px;
+    
+    
+}  
+
+.tc-box p{
+    margin-top:1%;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  nav{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: right;
+    color: #fff;
+  }
+  .na
+  {
+    flex: 1;
+    text-align: right;
+    color: #fff;
+  }
+
+  .na ul li a{
+    color: #fff;
+    font-size: x-large;
+    text-decoration: none;
+  }
+
+  .na ul li{
+    display:inline-block;
+    padding: 3px 12px;
+    position: relative;
+  }
+
+  .na ul li a::after{
+    content: "";
+    width:0%;
+    height:2px;
+    background: red;
+    display:block;
+    transition: 0.3s;
+    margin: auto;
+
+  }
+
+  .na ul li a:hover::after{
+    width:100%;
+  }
+
+  
+.boder{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(fff.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#tt{
+  padding: 150px 600px;
+  
+}
+#tt h3{
+  color: #fff;
+  font-size: 20px;
+}
+
+#tt input{
+  width:100%;
+  padding: 15px;
+  margin-bottom: 1px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px blue;
+
+}
+
+.bore{
+  height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(fff.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#tte{
+  padding: 38px 600px;
+  
+}
+#tte h3{
+  color: #fff;
+  font-size: 20px;
+}
+label{
+  color: #fff;
+  font-size: 16px;
+
+}
+
+#tte input,#tte label{
+  width:100%;
+  padding: 4px 10px;
+  margin-bottom: 1px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px blue;
+
+}
+
+
